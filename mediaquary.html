@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box1 {
+      height: 200px;
+      width: 300px;
+      background-color: red;
+
+    }
+
+    .box2 {
+      height: 200px;
+      width: 300px;
+      background-color: green;
+
+    }
+
+    .box3 {
+      height: 200px;
+      width: 300px;
+      background-color: yellow;
+
+    }
+
+    @media only screen and (max-width:700px) {
+      .box1 {
+        background-color: orange;
+      }
+
+      .box2 {
+        border: 5px solid black;
+      }
+    }
+
+    @media only screen and (min-widt:500px) {
+      .box2 {
+        background-color: pink;
+      }
+    }
+
+    @media only screen and (min-width:400px) and (max-width:800px) {
+      .box3 {
+        border-radius: 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+</body>
+
+</html>

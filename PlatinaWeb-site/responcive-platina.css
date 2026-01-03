@@ -1,0 +1,327 @@
+@media only screen and (max-width:1800px) {
+  .booking-form-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:1400px) {
+  .booking-form-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:1111px) {
+  .contact-section {
+    height: 150px;
+    margin-bottom: 50px;
+  }
+
+  .welcome-text p {
+    font-size: 14px;
+  }
+
+  .foot-1 {
+    gap: 10px;
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width:981px) {
+  .welcome-text {
+    width: 70%;
+    gap: 30px;
+  }
+
+  .contact-section {
+    justify-content: space-evenly;
+
+  }
+
+  .foot-1 {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .footer-com {
+    width: 40%;
+
+  }
+
+  .foot-1 {
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width:895px) {
+  .contact-section {
+    padding: 0px 50px;
+
+  }
+
+  .foot-1 {
+    align-items: start;
+
+  }
+
+}
+
+@media only screen and (max-width:844px) {
+  .welcome-text {
+    padding: 0px 20px 0px 40px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .facilities-img {
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .f1-img {
+    width: 50%;
+  }
+
+  .f2-img {
+    width: 50%;
+  }
+
+  .f3-img {
+    width: 50%;
+  }
+
+  .welcome-section {
+    height: 100%;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .welcome-img {
+    width: 100%;
+  }
+
+  .welcome-text {
+    width: 100%;
+  }
+
+  .facilities-card {
+    height: 100%;
+    justify-content: space-evenly;
+
+  }
+
+  .photos-section {
+    height: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p1-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .p2-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .p3-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .p4-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .p5-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .p6-img {
+    height: 400px;
+    width: 32%;
+  }
+
+  .contact-section {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .address,
+  .call,
+  .mail,
+  .customer {
+    height: 150px;
+    width: 35%;
+
+  }
+
+  .footer-section {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width:697px) {
+  .banner-overlay h1 {
+    font-size: 40px;
+
+  }
+
+  .banner-overlay {
+    gap: 30px;
+  }
+
+  .banner-overlay a {
+    font-size: 12px;
+  }
+
+  .facilities-text {
+    padding: 0px 20px;
+  }
+
+  .booking-form {
+    display: none;
+  }
+
+  .booking-form-2 {
+    display: block;
+  }
+
+  .book-room-form {
+    height: 900px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:598px) {
+  .facilities-card-text {
+    gap: 15px;
+    padding: 0px 20px;
+  }
+
+  .facilities-card {
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width:596px) {
+  .f1-img {
+    width: 80%;
+  }
+
+  .f2-img {
+    width: 80%;
+  }
+
+  .f3-img {
+    width: 80%;
+  }
+
+  .p1-img {
+    height: 300px;
+    width: 48%;
+  }
+
+  .p2-img {
+    height: 300px;
+    width: 48%;
+  }
+
+  .p3-img {
+    height: 300px;
+    width: 48%;
+  }
+
+  .p4-img {
+    height: 300px;
+    width: 48%;
+  }
+
+  .p5-img {
+    height: 300px;
+    width: 48%;
+  }
+
+  .p6-img {
+    height: 300px;
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width:519px) {
+  .contact-section {
+    padding: 0px 20px;
+    justify-content: space-around;
+  }
+
+  .footer-section {
+    padding: 50px 0px;
+
+  }
+
+  element.style {
+    text-align: center;
+    padding: 0px 20px;
+  }
+}
+
+@media only screen and (max-width:484px) {
+  .banner-overlay h1 {
+    font-size: 30px;
+  }
+
+  .banner-overlay {
+    gap: 15px;
+  }
+
+  .facilities-text {
+    margin-bottom: 30px;
+  }
+
+  .facilities-text h2 {
+    margin-bottom: 10px;
+  }
+
+  .facilities-img {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width:410px) {
+  .navbar {
+    display: none;
+  }
+
+  .address,
+  .call,
+  .mail,
+  .customer {
+    width: 100%;
+  }
+
+  .footer-com {
+    width: 100%;
+  }
+
+  element.style {
+    text-align: center;
+  }
+
+  .booking-room-form {
+    height: 100%;
+    width: 90%
+  }
+
+  .banner {
+    height: 50vh;
+  }
+}

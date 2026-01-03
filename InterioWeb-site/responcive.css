@@ -1,0 +1,138 @@
+/* 400px,576px, 768px, 992px, 1024px, 1200px */
+
+@media only screen and (max-width:1000px) {
+  .footer-section {
+    padding: 40px 80px;
+  }
+}
+
+@media only screen and (max-width:830px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 40%;
+  }
+
+  .about-left h3 {
+    font-size: 28px;
+  }
+
+  .about-left h4 {
+    font-size: 20px;
+  }
+
+  .services-card-section {
+    gap: 20px 20px;
+  }
+
+  .service-overlay {
+    padding: 10px;
+  }
+
+  .footer-icons {
+    gap: 5px;
+  }
+
+}
+
+@media only screen and (max-width:740px) {
+  .navbar {
+    display: none;
+  }
+
+  .company-section {
+    width: 90%;
+  }
+
+  .footer-parent {
+    flex-wrap: wrap;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot4 {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .company-section {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .banner-overlay p {
+    font-size: 18px;
+  }
+
+  .banner-overlay h1 {
+    font-size: 40px;
+  }
+
+  .banner-overlay {
+    padding: 0 30px;
+  }
+
+  .about-section {
+    flex-direction: column-reverse;
+  }
+
+  .about-left,
+  .about-right {
+    width: 80%;
+  }
+
+  .service-card {
+    width: 40%;
+  }
+
+  .process-card {
+    width: 40%;
+  }
+
+  .process-card-section {
+    flex-wrap: wrap;
+  }
+
+  .process-card {
+    width: 40%;
+  }
+
+
+}
+
+@media only screen and (max-width:400px) {
+  .banner-section {
+    height: 70vh;
+  }
+
+  .service-card {
+    width: 80%;
+  }
+
+  .project-card {
+    width: 80%;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot4 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .footer-parent {
+    gap: 25px;
+    justify-content: center;
+  }
+}
